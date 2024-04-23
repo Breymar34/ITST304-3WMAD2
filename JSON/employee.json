@@ -1,0 +1,26 @@
+[
+    {
+        "name":"Juan",
+        "age":32,
+        "regular":true,
+        "exp":null,
+        "talent":["Singing","Dancing"],
+        "loans":{
+            "GCash":2000,
+            "Pag-ibig":400,
+            "SSS":5000
+        }
+    },
+    {
+        "name":"Kim",
+        "age":31,
+        "regular":false,
+        "exp":4,
+        "talent":["Eating","Sleeping"],
+        "loans":{
+            "GCash":2000,
+            "Pag-ibig":1400,
+            "SSS":7000
+        }
+    }
+]

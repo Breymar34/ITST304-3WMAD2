@@ -1,0 +1,19 @@
+<script>
+   let obj = `{
+        "Name":"Jose Rizal",
+        "Age":23,
+        "Married":true,
+        "Asset":null,
+        "BankAccount":["BDO","Metro Bank","Land Bank"],
+        "Family":{
+            "Father":"Juan",
+            "Mother":"Juana",
+            "Brother":"Jun-Jun",
+            "Sister":"Jen-Jen"
+        }
+    }`;
+    let converted = JSON.parse(obj)
+    let reversed = JSON.stringify(converted)
+    console.log(converted);
+    console.log(reversed);
+</script>
